@@ -19,7 +19,7 @@ OpenWeather API → EventBridge → AWS Lambda → DynamoDB → S3 → Snowflake
 ```python
 import requests
 
-API_KEY = "YOUR_API_KEY"  
+API_KEY = "0fea786cf1e8179619780f8d46656d98"  
 city = "Berlin"
 
 url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}"
